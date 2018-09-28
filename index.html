@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Earthquakes today</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body ng-app="MyApp">
+  <div class="bg-dark">
+  <div id="stats" class="bg-dark container" ng-controller='MainCtrl'>
+    <table class="table table-dark">
+    <div id='title'> Earthquakes Today {{displayToday}} </div>
+      <thead id="headerTitle">
+        <th scope="col">Magnitude</th>
+        <th scope="col">Location</th>
+        <th scope="col">Time</th>
+      </thead>
+      <tbody>
+        <tr id="tableData" ng-repeat="earthquake in earthquakes | orderBy: '-magnitude'" ng-click="displayQuake(this.earthquake)">  
+          <td id='mag'>{{earthquake.magnitude}}</td>
+          <td id='place'>{{earthquake.location}}</td>
+          <td id='time'>{{earthquake.time | date:' HH:mm:ss'}}</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+  <div id="map"></div>
+</div>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js'></script>
+  <script  src="js/index.js"></script>
+</body>
+</html>
