@@ -1,3 +1,1 @@
-https://wtrinaldi.github.io/earthquakeApp/
-
- 
+https://wtrinaldi.github.io/earthquakeAppAngularJS/
