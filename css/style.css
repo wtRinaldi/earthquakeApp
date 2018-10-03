@@ -1,0 +1,36 @@
+html, body {
+	height: 100%;
+	font-size: 1vw;
+}
+
+#stats {
+	font-size: 2rem;
+}
+
+#map {
+	height: 100%;
+}
+
+header {
+	padding: 20px 10px;	
+}
+
+#title {
+	font-size: 4rem;
+	white-space: nowrap;
+	color: white;
+}
+
+.list-group-item {
+	margin: 2px 0;
+}
+
+#tableData:hover {
+	background: grey;
+}
+
+@media only screen and (min-width: 700px) {
+	html, body {
+		font-size: 7px;
+	}
+}
