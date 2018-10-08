@@ -4,7 +4,7 @@
 [Start Application](https://wtrinaldi.github.io/earthquakeAppAngularJS/)
 
 ###### Dependencies
-AngularJS
+AngularJS\s
 Bootstrap
 
 ##### API
