@@ -9,11 +9,11 @@ Bootstrap
 
 ##### API
 United States Geological Survey
-https://earthquake.usgs.gov/fdsnws/event/1/query?
+
 [USGS API Documentation](https://earthquake.usgs.gov/fdsnws/event/1/)
 
 Google Maps API
-https://maps.googleapis.com/maps/api/js?key=
+
 [Google Maps API Documentation](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ###### Planned Features
