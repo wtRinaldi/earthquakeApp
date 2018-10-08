@@ -8,12 +8,10 @@ AngularJS <br>
 Bootstrap
 
 ##### API
-United States Geological Survey
-
+United States Geological Survey <br>
 [USGS API Documentation](https://earthquake.usgs.gov/fdsnws/event/1/)
 
-Google Maps API
-
+Google Maps API <br>
 [Google Maps API Documentation](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ###### Planned Features
