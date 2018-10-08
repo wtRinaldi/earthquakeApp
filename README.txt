@@ -19,4 +19,7 @@ https://maps.googleapis.com/maps/api/js?key=
 ###### Planned Features
 Create earthquake analytic dashboard giving some data on earthquakes over time.
 
+## Contact
+
+williamtrinaldi@gmail.com
  
