@@ -2,7 +2,7 @@
 ### Daily top 10 earthquakes around the world
 
 ## Description
-Application that displays a list of the 10 ten earthquake of the day.  
+Earthquakes Today displays a list of the 10 ten earthquake of the day.  
 Clicking the list will recenter the map on the earthquake location.  
 
 [Start Application](https://wtrinaldi.github.io/earthquakeAppAngularJS/)
