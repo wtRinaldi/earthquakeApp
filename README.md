@@ -19,7 +19,7 @@ Google Maps API <br>
 [Google Maps API Documentation](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ###### Planned Features
-Provide more detail on map marker card when clicked. 
+Provide more detail on map marker card when clicked. <br>
 Using D3, create earthquake analytic dashboard giving some data on earthquakes over time.
 
 ## Contact
