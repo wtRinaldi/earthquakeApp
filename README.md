@@ -1,5 +1,5 @@
 # Earthquakes Today
-### Daily top 10 earthquakes around the world
+### Daily 10 largest earthquakes around the world
 
 ## Description
 Earthquakes Today displays a list of the ten largest earthquakes of the day.  
