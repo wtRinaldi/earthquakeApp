@@ -15,7 +15,7 @@ app.service('date', function() {
 
   return dateObject
 
-})
+});
 
 app.service('earthquakeData',['date', '$http', function(dateObject, $http) {
   const today = dateObject.year + "-" + dateObject.month + "-" + dateObject.day;
